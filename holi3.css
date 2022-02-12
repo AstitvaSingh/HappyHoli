@@ -1,0 +1,115 @@
+body {
+    background-color: black;
+    font-family: cursive;
+}
+  
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff7b00, 0 0 60px #ff7b00, 0 0 70px #fffb00;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #fffb00, 0 0 40px #7bff00, 0 0 50px #7bff00, 0 0 60px #0051ff, 0 0 70px #0051ff, 0 0 80px #ffffff;
+    }
+}
+.slider{
+    width: 775px;
+    height: 368px;
+    margin: 100px;
+    animation: slide 20s infinite;
+}
+@keyframes slide{
+    0%{
+        background: url(/Images/1.png) 800px 368px;
+    }
+    15%{
+        background: url(/Images/2.png) 800px 368px;
+    }
+    30%{
+        background: url(/Images/3.png) 800px 368px;
+    }
+    45%{
+        background: url(/Images/4.png) 800px 368px;
+    }
+    60%{
+        background: url(/Images/5.png) 800px 368px;
+    }
+
+}
+ul li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    cursor:pointer;
+  }
+.p1 {
+    font-size: 20px;
+    color: #fff;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+#video1:hover{
+    height: 500px;
+    width: 1000px;
+}
+#video2:hover{
+    height: 500px;
+    width: 1500px;
+}
+#video3:hover{
+    height: 500px;
+    width: 1000px;
+}
+#video4:hover{
+    height: 500px;
+    width: 1000px;
+}
+#video5:hover{
+    height: 500px;
+    width: 1000px;
+}
+#video6:hover{
+    height: 500px;
+    width: 1000px;
+}
+#video7:hover{
+    height: 500px;
+    width: 1000px;
+}
+@media screen and (max-width: 956px){
+    .slider{
+        width: 100%;
+    }
+    #video1{
+        width: 100%;
+    }
+    #video2{
+        width: 100%;
+    }
+    #video3{
+        width: 100%;
+    }
+    #video4{
+        width: 100%;
+    }
+    #video5{
+        width: 100%;
+    }
+    #video6{
+        width: 100%;
+    }
+    #video7{
+        width: 100%;
+    }
+}
